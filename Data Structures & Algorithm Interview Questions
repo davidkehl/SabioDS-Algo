@@ -1,0 +1,92 @@
+Data Structures & Algorithm Interview Questions
+
+1. What is a data structure?
+	- The way data is organized and manipulated.
+2. Describe the 5 types of Data Structures?
+	- Arrays -> A collection of values that are all the same data type
+	- Lists -> A collection of related things linked to the previous and/or following data items.
+	- Trees -> A data structure that organizes data in a hierarchical framework
+	- Tables -> The data is saved in the form of rows and columns.
+	- Records -> A collection of fields, each of which contains data from a single data type.
+3. What is a linear data structure? Name a few examples.
+	- A data structure who elements are arranged in a sequence or in a linear order?
+	- Examples: Arrays, Linked List, Stacks, Queues, Strings
+4. What are some applications of data structures?
+	- Data management, operating systems, AI, compilers, database management, graphics, simulation
+5. What is a multidimensional array?
+	- An array of arrays
+	- Examples: [['My', 'First', 'Array'],
+				 ['My', 'Second', 'Array']]
+6. What is a linked list data structure?
+	- Sequence of data objects that are not stored in adjacent memory locations
+	- Each element is a seperate object called a node.
+	- Contain two fields: data field and a reference to the next node
+	- Linked lists are a dynamic data structure where the nodes are not fixed and the list can grow or shrink
+7. Are linked lists considered linear or non-linear data structures?
+	- Both, it depends on the application
+	- When used to access it is considered linear
+	- When used for storage it is considered non-linear
+8. What are the advantages of linked list over arrays?
+	- It is a dynamic data structure - no need to define and intial size
+	- Insertion and deletion
+	- No wasted memory - the required memory will grow and shrink with demand
+9. In which scenarios do we use linked list and when do we use an array?
+	Linked List better:
+	- When you don't know the upper limit of elements
+	- When there will be a large number of inserts and deletions
+	- When you want to insert into the middle of a data structure
+	Array better:
+	- When you know the upper limit of elements beforehand
+	- Anytime memory is a concern and we want to limit the memory that a data structure uses
+	- When you need to index or randomly access data
+	- When you need speed to iterate through elements
+10. What is a doubly linked list? Give some examples.
+	- A linked list where the node points to both the previous and the next node
+	- Browser cached that knows where you were before and after the previous page
+	- Music playlist
+11. How do you reference all of the elements in a one-dimensional array?
+	- Through an indexed loop (for loop / while loop)
+12. What are dynamic data structures? Name a few.
+	- They have the ability to expand and contract based on the needs of the program / algorithm
+	- Queues, Stacks, Dynamic Arrays, Linked Lists, Heap
+13. What is an algorithm?
+	- A step by step method of solving a problem or manipulating data
+14. What is algorithm analysis?
+	- Provides an estimate of the required resources to complete an algorithm
+15. Why do we need to do an algorithm analysis?
+	- We want algorithms to be as efficient as possible
+	- So we can optimize algorithms based on time / space needs
+16. What is a stack?
+17. Where are stacks used?
+18. What are the operations that can be performed on a stack?
+19. What is a postfix expression? Give a few examples.
+20. What is a queue data structure?
+21. List some applications of a queue.
+22. What is dequeue?
+23. What operations can be performed on queues?
+24. What is a heap?
+25. What are the advantages of a heap over a stack?
+26. What is the difference between a PUSH and a POP?
+27. Which sorting algorithm is considered to be the fastest? Why?
+28. What is merge sort? How does it work?
+29. How does a selection sort work?
+30. What is an asymptotic analysis of an algorithm?
+31. What are asymptotic notations?
+32. What are some examples of divide and conquer algorithms?
+33. What is a graph data structure?
+34. What are the applications of a graph data structure?
+35. List the types of trees?
+36. What are binary trees?
+37. What are the differences between the B tree and the B+ tree?
+38. What are the advantages of binary search over a linear search?
+39. What is an AVL tree?
+40. What is the difference between NULL and VOID?
+41. Name the ways to determine whether a linked list is a loop.
+42. List some applications of multilinked data structures.
+43. Explain the jagged array.
+44. Explain the max heap data structure.
+45. How do you find the height of a node in a tree?
+
+
+Dynamic Arrays?
+Heap?

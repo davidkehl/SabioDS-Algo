@@ -57,29 +57,117 @@ Data Structures & Algorithm Interview Questions
 	- We want algorithms to be as efficient as possible
 	- So we can optimize algorithms based on time / space needs
 16. What is a stack?
+	- A abstract datra type that specifies a linear data structure
+	- You can only remove items from the top in a First In Last Out(FILO) method
 17. Where are stacks used?
+	- String reversal
+	- Backtracking
 18. What are the operations that can be performed on a stack?
+	- PUSH -> adds an item to the top of the stack
+	- POP -> remove the top element from the stack
+	- PEEK -> looks at the top element in a stack without removing it
+
+	How to code a stack in javascript:
+	let stack = [] -> This creates an empty stack;
+	stack.push(1) -> adds the given argument to the stack
+	stack.pop() -> removes the top item from the stack
+
 19. What is a postfix expression? Give a few examples.
+	- Expressions where the operator comes after the operands
+	- 2 + 2 -> typical expression
+	- 2 2 + -> postfix expression
+	- both equal 4
 20. What is a queue data structure?
+	- Data structure similar to an array with a first in first out (FIFO) method
 21. List some applications of a queue.
+	- Waiting list for hardware
+	- Playlists
+	- Youtube buffer
 22. What is dequeue?
+	- Same as a queue but with the additional functionality to insert and delete from both ends
 23. What operations can be performed on queues?
+	- enqueue - add an element to the end of the queue
+	- dequeue - remove an element from the beginning of the queue
+	- init() - initialize a queue
+	- isEmpty - checks to see if the queue is empty and returns a boolean
 24. What is a heap?
+	- Tree based data structure that is a complete binary tree
+	- Max-heap - the root node is the greatest among all of the nodes
+	- Min-heap - the root node is the smallest among all the nodes
+
+					Max Heap
+
+						100 --> root node is the greatest
+					  /		\
+					40		 50
+				   /  \		/  \
+				  10  15   50  40
+
+				  	Min Heap
+				  		10  --> root node is the smallest
+				  	  /    \
+				  	15      30
+				   /  \	   /  \
+				 40   50  100  40
+
 25. What are the advantages of a heap over a stack?
+	- Memory space is dynamic -> can grow or shrink with application needs
+	- In recursion, you have more memory to work with with heaps that with stacks
 26. What is the difference between a PUSH and a POP?
+	- Push is going to add to a data structure
+		- takes two arguments, the stack you want to modify and the value you want to add
+	- Pop is going to remove from a data structure
 27. Which sorting algorithm is considered to be the fastest? Why?
+	-  Quick sort is generally considered the quickest but it is highly dependent on the needs of the function
 28. What is merge sort? How does it work?
+	- Known as a divide and conquer algorithm
+	- Takes two seperate and adjacent data and sorts them then merges them together
+	- Big O for merge sort:
+		- Time complexity:
+			- worst, average, best case -> O(NlogN)
+		- Space complexity:
+			- O(n)
 29. How does a selection sort work?
+	- iterates through the array finding the smallest number and swapping it with the current index position
+	- Time complexity:
+		- best, average, worst case -> O(n^2)
+	- Space complexity:
+		- worst O(1)
 30. What is an asymptotic analysis of an algorithm?
+	- How programmers determine ethe running time or performance of a program
 31. What are asymptotic notations?
+	- Big O notation
+	- Large Theta()
+	- Big Omega
 32. What are some examples of divide and conquer algorithms?
+	- Merge sort
+	- Quick sort
 33. What is a graph data structure?
+	- Data structure that consists of nodes connected by edges that enables storage and retrieval. 
 34. What are the applications of a graph data structure?
+	- Social network graphs
+	- Neural networks
+	- Transport grids
+	- Utility networks
 35. List the types of trees?
+	- Binary Tree
+	- Binary Search Tree
+	- AVL Tree
+	- General Tree
+	- Red and Black Tree
+	- N-ary tree
 36. What are binary trees?
+	- A tree made up of nodes each of which has two children (left and right nodes)
+	- Trees start with a single node called the root
 37. What are the differences between the B tree and the B+ tree?
+	- A B tree is a balanced tree where the branches are balanced
+	- A B+ tree is a balanced tree where all branches are exactly the same length
 38. What are the advantages of binary search over a linear search?
+	- Binary search perform fewer comparisons
+	- Binary search runs in O(logN) time compared to O(n) time for linear search
 39. What is an AVL tree?
+	- Adelson, Velskii, and Landi tree
+	- Height balancing binary search tree where the height difference is <= 1
 40. What is the difference between NULL and VOID?
 41. Name the ways to determine whether a linked list is a loop.
 42. List some applications of multilinked data structures.

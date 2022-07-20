@@ -72,5 +72,7 @@ function merge(array, start, middle, end) {
   while (rightIndex < rightArrayLength) array[currentIndex++] = rightArray[rightIndex++]
 }
 
+// Time Complexity: O(nLogn);
+// Space Complexity: O(n);
+
 console.log(mergeSort(array, 0, array.length - 1));
-console.log(array.sort());
